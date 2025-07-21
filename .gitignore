@@ -1,0 +1,21 @@
+# === Next.js ===
+.next/
+out/
+build/
+node_modules/
+*.tsbuildinfo
+next-env.d.ts
+
+# 日志与调试文件
+npm-debug.log*
+pnpm-debug.log*
+
+# === Actix Web ===
+target/
+
+# === 编辑器配置 ===
+.vscode/
+.idea/
+
+# === 环境变量文件 ===
+.env
